@@ -1,0 +1,25 @@
+name: mon_hub
+description: Mon Hub - Coran, adhkar, prieres, notes, comptes et photos.
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.0
+  http: ^1.2.0
+  shared_preferences: ^2.3.0
+  photo_manager: ^3.5.0
+  photo_manager_image_provider: ^2.2.0
+  just_audio: ^0.9.40
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
